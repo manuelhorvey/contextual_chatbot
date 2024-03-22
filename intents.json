@@ -1,0 +1,182 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": [
+        "Is coffee available?",
+        "Do you have coffee?",
+        "Can I get coffee?",
+        "Is there coffee in stock?",
+        "Do you offer coffee?",
+        "Is tea available?",
+        "Do you have tea?",
+        "Can I get tea?",
+        "Is there tea in stock?",
+        "Do you offer tea?"
+      ],
+      "responses": [
+        "Yes, coffee is available.",
+        "We have coffee in stock.",
+        "Coffee is currently available.",
+        "Yes, tea is available.",
+        "We have tea in stock.",
+        "Tea is currently available."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "How can I find you?"
+      ],
+      "responses": [
+        "Our store is located at 123 Main Street, Anytown, USA.",
+        "You can find us at 123 Main Street, Anytown, USA."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your store hours?",
+        "When do you open/close?"
+      ],
+      "responses": [
+        "Our store is open Monday to Friday from 9:00 AM to 6:00 PM, and Saturday from 10:00 AM to 4:00 PM. We are closed on Sundays.",
+        "Our store hours are Monday to Friday from 9:00 AM to 6:00 PM, and Saturday from 10:00 AM to 4:00 PM. We are closed on Sundays."
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "What do you recommend?",
+        "Can you suggest something?"
+      ],
+      "responses": [
+        "Our specialty is our house blend coffee. It's a customer favorite!",
+        "I would recommend trying our Earl Grey tea. It's quite popular."
+      ]
+    },
+    {
+      "tag": "customization",
+      "patterns": [
+        "Can I customize my order?",
+        "Do you offer customizations?"
+      ],
+      "responses": [
+        "Yes, you can customize your order. Just let us know your preferences!",
+        "Certainly! We offer various customization options for your order."
+      ]
+    },
+    {
+      "tag": "loyalty",
+      "patterns": [
+        "Do you have a loyalty program?",
+        "Are there any rewards for frequent customers?"
+      ],
+      "responses": [
+        "Yes, we have a loyalty program. Earn points with every purchase!",
+        "Our loyal customers enjoy exclusive rewards and discounts."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "Can you help me?",
+        "I need assistance"
+      ],
+      "responses": [
+        "Sure, I'm here to help. What do you need assistance with?",
+        "Of course, how can I assist you?",
+        "How can I be of assistance?"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "*"
+      ],
+      "responses": [
+        "Sorry, I don't understand what you mean. Can you rephrase that?",
+        "I'm still learning, can you try asking in a different way?",
+        "That's an interesting question, but I'm not sure how to answer that yet."
+      ]
+    }
+  ]
+}
